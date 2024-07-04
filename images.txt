@@ -1,2 +1,2 @@
 alpine
-openwebui/openwebui
+open-webui/open-webui
