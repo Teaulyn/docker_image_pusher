@@ -1,2 +1,3 @@
 nginx
 docker pull sagemathinc/openwebui:2024-05-18
+docker pull justroy/ollama-openwebui:latest
