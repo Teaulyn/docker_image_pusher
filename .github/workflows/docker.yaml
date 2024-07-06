@@ -53,6 +53,7 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
+        # 使用 echo 将密码传递给 docker login 命令
         echo $ALIYUN_REGISTRY_PASSWORD | docker login -u $ALIYUN_REGISTRY_USER --password-stdin $ALIYUN_REGISTRY
 
         declare -A duplicate_images
